@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Player">
+      <UniqueIdentifier>{5354d44e-ae22-49aa-a81a-64f6dc8a856d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\BigSophia">
+      <UniqueIdentifier>{9678fd38-835d-47dd-8441-f549ae18266c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\SmallSophia">
+      <UniqueIdentifier>{9f4061e3-b7ae-4f7d-b859-63a48712f377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\Car">
+      <UniqueIdentifier>{88db19d8-5ae5-4eb8-bc78-0fd29d8f44e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameController">
+      <UniqueIdentifier>{1dc91e3d-de5d-4bbf-9285-c272656c0745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{bf712769-c0ed-4607-96ea-888785923fcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameComponent">
+      <UniqueIdentifier>{053fd03b-9a71-4ce3-8666-d15df6180333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{0337ea92-32e4-427f-b77d-f17a3227e419}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>GameController</Filter>
+    </ClCompile>
+    <ClCompile Include="BigSophiaState.cpp">
+      <Filter>Player\BigSophia</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="BigSophiaIdleState.cpp">
+      <Filter>Player\BigSophia</Filter>
+    </ClCompile>
+    <ClCompile Include="BigSophia.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="BigSophiaRunningHorizontalState.cpp">
+      <Filter>Player\BigSophia</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>GameComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectInput.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="dsutil.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="dxutil.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="BigSophiaRunningToptoBotState.cpp">
+      <Filter>Player\BigSophia</Filter>
+    </ClCompile>
+    <ClCompile Include="BigSophiaRunningBottoTopState.cpp">
+      <Filter>Player\BigSophia</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameManager.h">
+      <Filter>GameController</Filter>
+    </ClInclude>
+    <ClInclude Include="BigSophiaState.h">
+      <Filter>Player\BigSophia</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="BigSophiaIdleState.h">
+      <Filter>Player\BigSophia</Filter>
+    </ClInclude>
+    <ClInclude Include="BigSophia.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="BigSophiaRunningHorizontalState.h">
+      <Filter>Player\BigSophia</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>GameComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectInput.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="dsutil.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="dxutil.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSetting.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="BigSophiaRunningToptoBotState.h">
+      <Filter>Player\BigSophia</Filter>
+    </ClInclude>
+    <ClInclude Include="BigSophiaRunningBottoTopState.h">
+      <Filter>Player\BigSophia</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
